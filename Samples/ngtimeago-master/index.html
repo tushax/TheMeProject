@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="timeagoApp">
+<head>
+	<title>Timeago</title>
+	<script src="demo/angular.js"></script>
+	<script src="ngtimeago.js"></script>
+	<script src="demo/app.js"></script>
+
+	<link rel="stylesheet" href="demo/bootstrap/css/bootstrap.min.css" />
+
+</head>
+<body ng-controller="LoadDates" style="margin: 0 25px 0; padding: 0 15px 0;">
+
+
+    
+	<div class="jumbotron">
+      <div class="container">
+        <h1>Sample</h1>
+         <p>July 13, 2014 11:13:00 : {{dates[0] | timeago}}</p>
+		 <p>{{sample1}} : {{dates[1] | timeago}}</p>
+      </div>
+    </div>
+	
+	
+
+
+
+
+</body>
+</html>
