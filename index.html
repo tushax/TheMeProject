@@ -460,9 +460,13 @@
         </section>
 
         <section id="skillCloud" ng-app="app" ng-controller="controller">
-            <div style="align-content:center">
-                <jqcloud words="words" width="900" height="350" colors="{{colors}}" delay="20" steps="6" font-size="{from:0.06, to:0.02}"></jqcloud>
+            <div style="float:left;align-items:flex-end; border:5px solid green;">
+                <img src="img/samples/skillcloud.jpg">
             </div>
+            <div style="float:left; align-items:flex-end; border:5px solid red;">
+                <jqcloud words="words" width="400" height="350" colors="{{colors}}" delay="20" steps="6" font-size="{from:0.06, to:0.02}"></jqcloud>
+            </div>
+            <div style="clear:both"></div>
         </section>
 
         <section id="highlights">

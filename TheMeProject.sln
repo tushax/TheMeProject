@@ -7,20 +7,21 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TheMeProject", ".", "{B1AED
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_50698"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\tushax\workarea\Gits\TheMeProject\"
+		Debug.AspNetCompiler.PhysicalPath = "..\TheMeProject\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50698\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_50698"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\tushax\workarea\Gits\TheMeProject\"
+		Release.AspNetCompiler.PhysicalPath = "..\TheMeProject\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50698\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "50698"
+		SlnRelativePath = "..\TheMeProject\"
 	EndProjectSection
 EndProject
 Global

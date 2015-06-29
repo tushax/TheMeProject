@@ -365,6 +365,7 @@ section#skillCloud {
   padding: 0 0 0 0 ;
   text-align:center;
   align-content:center;
+  /*border:5px solid red;*/ 
 }
 section#buyNow {
   background-image: url(../img/samples/bk-sea.jpg);
