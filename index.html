@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="css/styles.css" title="mainStyle">
     <link rel="stylesheet" href="css/Timeline.css">
 
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
     <!-- REVOLUTION BANNER CSS SETTINGS -->
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
 
@@ -467,7 +471,31 @@
             </div>
         </section>
 
-        <section id="skillCloud" ng-app="app" ng-controller="controller">
+
+        <section id="buyNow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 scrollpoint sp-effect2">
+                        <img src="img/samples/Tushar-Sood-Skills.png" alt="" class="img-responsive macbook-image img-center">
+                    </div>
+                    <div class="col-md-4 scrollpoint sp-effect1">
+                        <h1>
+                            .expertis<span>e</span>
+                        </h1>
+                        <p>
+                            "With great power comes great responsibility", said Spiderman's Uncle;  Product Management is no different!  <br /><br />With the power to define
+                            an organization's future (read finance stream), channelizing a developer's efforts and a customer's faith and towards a common benefit while maintaining your sanity
+                            is not easy.<br /><br />
+
+                        </p>
+                        <!--              <a href="#" class="btn btn-primary btn-lg">Buy now</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--<section id="skillCloud" ng-app="app" ng-controller="controller">
             <div style="float:left;align-items:flex-end; border:5px solid green;">
                 <img src="img/samples/skillcloud.jpg">
             </div>
@@ -475,7 +503,7 @@
                 <jqcloud words="words" width="400" height="350" colors="{{colors}}" delay="20" steps="6" font-size="{from:0.06, to:0.02}"></jqcloud>
             </div>
             <div style="clear:both"></div>
-        </section>
+        </section>-->
 
         <section id="highlights">
             <div class="container">
@@ -598,30 +626,7 @@
             </div>
         </section>-->
 
-        <section id="buyNow">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7 scrollpoint sp-effect2">
-                        <img src="img/samples/Tushar-Sood-Skills.png" alt="" class="img-responsive macbook-image img-center">
-                    </div>
-                    <div class="col-md-4 scrollpoint sp-effect1">
-                        <h1>
-                            .expertis<span>e</span>
-                        </h1>
-                        <p>
-                            "With great power comes great responsibility", said Spiderman's Uncle;  Product Management is no different!  <br /><br />With the power to define
-                            an organization's future (read finance stream), channelizing a developer's efforts and a customer's faith and towards a common benefit while maintaining your sanity
-                            is not easy.<br /><br />
-
-                        </p>
-                        <!--              <a href="#" class="btn btn-primary btn-lg">Buy now</a> -->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="team">
+        <section class="col-3 ss-style-doublediagonal">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
@@ -632,135 +637,10 @@
                         </div>
                     </div>
                 </div>
-                <div id="includedTimeline"></div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="row">
-                            <div class="member scrollpoint sp-effect5">
-                                <div class="member-image">
-                                    <img src="img/samples/team/1.jpg" alt="" class="img-responsive img-center">
-                                    <div class="member-details">
-                                        <h4>Connect with me</h4>
-                                        <ul class="social">
-                                            <li>
-                                                <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                            </li>
-                                        </ul>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, esse molestiae voluptates</p>
-                                    </div>
-                                </div>
-                                <div class="member-name">
-                                    <h4>Sara jones</h4>
-                                    <p>Art Director</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="row">
-                            <div class="member scrollpoint sp-effect3">
-                                <div class="member-image">
-                                    <img src="img/samples/team/2.jpg" alt="" class="img-responsive img-center">
-                                    <div class="member-details">
-                                        <h4>Connect with me</h4>
-                                        <ul class="social">
-                                            <li>
-                                                <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                            </li>
-                                        </ul>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, esse molestiae voluptates</p>
-                                    </div>
-                                </div>
-                                <div class="member-name member-odd">
-                                    <h4>jon Doe</h4>
-                                    <p>UI Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="row">
-                            <div class="member scrollpoint sp-effect5">
-                                <div class="member-image">
-                                    <img src="img/samples/team/3.jpg" alt="" class="img-responsive img-center">
-                                    <div class="member-details">
-                                        <h4>Connect with me</h4>
-                                        <ul class="social">
-                                            <li>
-                                                <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                            </li>
-                                        </ul>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, esse molestiae voluptates</p>
-                                    </div>
-                                </div>
-                                <div class="member-name">
-                                    <h4>Sam jones</h4>
-                                    <p>Design Manager</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="row">
-                            <div class="member scrollpoint sp-effect3">
-                                <div class="member-image">
-                                    <img src="img/samples/team/4.jpg" alt="" class="img-responsive img-center">
-                                    <div class="member-details">
-                                        <h4>Connect with me</h4>
-                                        <ul class="social">
-                                            <li>
-                                                <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                            </li>
-                                        </ul>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, esse molestiae voluptates</p>
-                                    </div>
-                                </div>
-                                <div class="member-name member-odd">
-                                    <h4>Sofia jones</h4>
-                                    <p>IT Manager</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </div>
+                </section>
+        <section class="Team">
+                <div id="includedTimeline"></div>
         </section>
 
         <section id="skills">
@@ -1051,14 +931,14 @@
                 <div class="row">
                     <div id="carousel-twitter" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
-                        <ol class="carousel-indicators">
+                        <!--<ol class="carousel-indicators">
                             <li data-target="#carousel-twitter" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-twitter" data-slide-to="1"></li>
                             <li data-target="#carousel-twitter" data-slide-to="2"></li>
-                        </ol>
+                        </ol>-->
 
                         <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
+                        <!--<div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
                                     <div class="col-md-8 col-md-push-2">
@@ -1080,7 +960,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="follow">
                         <a href="#" class="btn btn-empty text-center">
@@ -1163,7 +1043,7 @@
             </div>
         </section>-->
 
-        <section id="map">map comes here?</section>
+        <!--<section id="map">map comes here?</section>-->
 
         <footer id="site-footer">
             <div class="container">
