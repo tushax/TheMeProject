@@ -38,7 +38,7 @@ section h2 {
 	font-weight: 400;
 }
 
-section p {
+section p .dividerStyle {
 	color: rgba(0,0,0,.3);
 	font-size: 1.3em;
 	line-height: 1.5;
@@ -127,12 +127,12 @@ section::after {
 
 .ss-style-doublediagonal {
 	z-index: 1;
-	padding-top: 6em;
-	/*background: red;*/
+	/*padding-top: 6em;*/
+	background: #2980b9;
 
     position: relative;
-	padding: 10em 10%;
-	background: #ffffff;
+	/*padding: 10em 10%;*/
+	
 	color: #000000;
 	text-align: center;
 }
@@ -153,7 +153,7 @@ section::after {
 
 .ss-style-doublediagonal::before {
 	height: 50%;
-	background: #909090;
+	background: #003366;
 	-webkit-transform: rotate(-3deg);
 	transform: rotate(-3deg);
 	-webkit-transform-origin: 3% 0;

@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700);
-.backgroundCover, section#features, section#buyNow, section#skillcloud, section#twitter, section.well {
+.backgroundCover, section#features, section#expertise, section#skillcloud, section#twitter, section.well {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -68,7 +68,7 @@ header.masthead h1, header.masthead h2, header.masthead h3 {
 
 header.masthead .tp-caption.large_blue_light {
   font-weight:bold;
-  font-size: 30px;
+  font-size: 20px;
   color: midnightblue;
 }
 header.masthead .tp-caption.large_blue_bold {
@@ -182,6 +182,7 @@ section#about .media .media-body .media-heading {
 }
 section#about .media .media-body p {
   margin-top: 20px;
+  text-align:justify;
 }
 section#highlights {
   padding: 60px 0;
@@ -367,27 +368,53 @@ section#skillCloud {
   align-content:center;
   /*border:5px solid red;*/ 
 }
-section#buyNow {
-  background-image: url(../img/samples/bk-sea.jpg);
-  background-attachment: fixed;
-  padding: 65px 0;
+section#expertise {
+  /*background-image: url(../img/samples/bk-sea.jpg);
+  background-attachment: fixed;*/
+  padding: 60px 0;
 }
-section#buyNow h1 {
-  color: white;
+section#expertise h1 {
+  color: black;
   text-align: left;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 45px;
 }
-section#buyNow h1 span {
+section#expertise h1 span {
   color: #22a3df;
 }
-section#buyNow p {
-  color: white;
+section#expertise p {
+  color: #000;
+  padding: 20px 0;
+  line-height: 25px;
+  font-size: 16px;
+  text-align:justify;
+}
+
+section#career {
+  /*background-image: url(../img/samples/bk-sea.jpg);
+  background-attachment: fixed;*/
+  padding: 60px 0;
+  background-color:#efefef;
+}
+section#expertise h1 {
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 45px;
+}
+section#expertise h1 span {
+  color: #22a3df;
+}
+section#expertise p {
+  color: #000;
   padding: 20px 0;
   line-height: 25px;
   font-size: 16px;
 }
+
+
 section#team {
   padding: 40px 0;
 
@@ -955,10 +982,11 @@ section.well .breadcrumb .active {
 }
 
 footer#site-footer {
-  padding: 40px 0;
+  padding: 2px 0;
   background: #222222;
-  color: white;
-  text-align: center;
+  color: #434343;
+  text-align: Right;
+  font-size:x-small;
 }
 footer#site-footer span.divider {
   float: none;
@@ -967,7 +995,8 @@ footer#site-footer h4, footer#site-footer h5 {
   text-transform: uppercase;
 }
 footer#site-footer a img.top {
-  margin: 20px 0;
+  /* margin: 20px 0; */
+  color:#efefef;
 }
 
 .media {
@@ -1131,7 +1160,8 @@ span.divider.grey:before {
 
 ul {
   list-style-image: url(../img/bullet-bl.png);
-  line-height: 25px;
+  /*TS: Commented to reduce UL row height 
+  line-height: 25px;*/
 }
 
 .img-center {
