@@ -984,7 +984,7 @@ section.well .breadcrumb .active {
 footer#site-footer {
   padding: 2px 0;
   background: #222222;
-  color: #434343;
+  color: #efefef;
   text-align: Right;
   font-size:x-small;
 }
@@ -994,9 +994,15 @@ footer#site-footer span.divider {
 footer#site-footer h4, footer#site-footer h5 {
   text-transform: uppercase;
 }
-footer#site-footer a img.top {
-  /* margin: 20px 0; */
-  color:#efefef;
+footer#site-footer a img.top
+{
+    /* margin: 20px 0; */
+    color: #0000FF;
+}
+footer#site-footer a
+{
+    /* margin: 20px 0; */
+    color: #333399;
 }
 
 .media {
