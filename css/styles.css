@@ -53,9 +53,22 @@ header.masthead .tp-caption .light_bold {
 }
 header.masthead .tp-caption.large_white_light {
   font-weight: 300;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
 }
+header.masthead .tp-caption.large_white_light_blackNeon {
+  font-weight: 300;
+  font-size: 40px;
+  color:white;
+  text-shadow: 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #000, 0 0 100px #000, 0 0 110px #000, 0 0 130px #000, 0 0 180px #000;
+}
+header.masthead .tp-caption.large_white_light_blackNeon_small {
+  font-weight: 600;
+  font-size: 20px;
+  color:white;
+  text-shadow: 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 80px #000, 0 0 90px #000, 0 0 110px #000, 0 0 150px #000;
+}
+
 header.masthead .tp-caption .btn.btn-naked {
   background: rgba(255, 255, 255, 0.3);
   font-size: 30px;
@@ -64,11 +77,12 @@ header.masthead .tp-caption .btn.btn-naked {
 }
 header.masthead h1, header.masthead h2, header.masthead h3 {
   color: white;
+     font-size: 40px;
 }
 
 header.masthead .tp-caption.large_blue_light {
   font-weight:bold;
-  font-size: 20px;
+  font-size: 30px;
   color: midnightblue;
 }
 header.masthead .tp-caption.large_blue_bold {
@@ -77,9 +91,16 @@ header.masthead .tp-caption.large_blue_bold {
 }
 #wrap {
   padding-top: 70px;
+  overflow: hidden;
 }
 #wrap.home {
   padding: 0;
+}
+
+section#features h1 span {
+  color: #22a3df;
+} {
+    background-color:red;
 }
 
 /* styling navbar */
@@ -651,10 +672,10 @@ section#twitter a.btn.btn-empty {
   position: relative;
   top: 15px;
 }
-section#twitter .carousel-indicators {
+/*section#twitter .carousel-indicators {
   bottom: -40px;
-}
-section#get-in-touch {
+}*/
+/*section#get-in-touch {
   padding: 40px 0;
 }
 section#get-in-touch .contact-details .detail {
@@ -692,8 +713,15 @@ section#get-in-touch .contact-details .detail ul li a:hover {
 section#map {
   width: 100%;
   height: 300px;
+}*/
+
+div#tushar .DarkBG {
+    border:double;
+    border-width:thick;
+    background-color:red;
 }
-section#blog .article {
+
+/*section#blog .article {
   margin: 25px 0;
 }
 section#blog .article span.divider {
@@ -862,7 +890,7 @@ section#blog .pagination-wrapper .pagination > .active > span:focus {
   background-color: #22a3df;
   border-color: #22a3df;
   color: white;
-}
+}*/
 section .side-block {
   margin-top: 25px;
 }
@@ -1455,7 +1483,7 @@ canvas {
     color: white;
   }
 }
-.theme-switcher {
+/*.theme-switcher {
   position: absolute;
   margin-top: 20px;
 }
@@ -1489,4 +1517,4 @@ canvas {
   color: white;
   background: #555555;
   border-color: #555555;
-}
+}*/
